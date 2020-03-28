@@ -41,8 +41,8 @@ public class MainClass {
 			address1.setCountry("Poland");
 			
 			Address address2 = new Address(); //(2, "Washington", "USA");
-			address1.setCity("Washington");
-			address1.setCountry("USA");
+			address2.setCity("Washington");
+			address2.setCountry("USA");
 			
 			// start a transaction
 			session.beginTransaction();
