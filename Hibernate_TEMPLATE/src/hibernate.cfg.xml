@@ -26,8 +26,8 @@
 		<!-- Set the current session context -->
       <property name="current_session_context_class">thread</property>
       
-      <mapping class="pl.jaceksysiak.entity.Employee"/>
-      <mapping class="pl.jaceksysiak.entity.Address"/>
+<!--       <mapping class="pl.jaceksysiak.entity.Employee"/> -->
+<!--       <mapping class="pl.jaceksysiak.entity.Address"/> -->
       
 	</session-factory>
 </hibernate-configuration>
