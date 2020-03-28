@@ -22,9 +22,6 @@ public class Address {
 	@Column(name="country")
 	private String country;
 	
-	//@ManyToOne
-	//private Employee employee;
-	
 	public Address() {}
 
 	public Address(int id, String city, String country) {
@@ -56,10 +53,4 @@ public class Address {
 	public void setCountry(String country) {
 		this.country = country;
 	}
-	
-	
-	
-	
-	
-	
 }

@@ -19,12 +19,6 @@ public class Employee {
 	@Column(name="name")
 	private String name;
 	
-//	@OneToMany(mappedBy="addresses",
-//			   cascade= {CascadeType.PERSIST, CascadeType.MERGE,
-//						 CascadeType.DETACH, CascadeType.REFRESH})
-//	private List<Address> addresses;
-	
-	
     public Employee() {}
     
 	public Employee(int id, String name) {
@@ -54,15 +48,5 @@ public class Employee {
 	public String toString() {
 		return "Employee [id=" + id + ", name=" + name + "]";
 	}
-
-//	public List<Address> getAddresses() {
-//		return addresses;
-//	}
-//
-//	public void setAddresses(List<Address> addresses) {
-//		this.addresses = addresses;
-//	}
-
-	
 	
 }
