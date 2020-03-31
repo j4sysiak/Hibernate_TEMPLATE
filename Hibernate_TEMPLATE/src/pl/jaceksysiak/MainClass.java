@@ -26,6 +26,9 @@ public class MainClass {
 		Session session = factory.getCurrentSession();
 		
 		try {	
+			// start a transaction
+			session.beginTransaction();
+			
 		//-----------Employee	
 			Employee tmpEmployee1=new Employee();
 		//	tmpEmployee.setId(1);
@@ -43,9 +46,6 @@ public class MainClass {
 			Address address2 = new Address(); //(2, "Washington", "USA");
 			address2.setCity("Washington");
 			address2.setCountry("USA");
-			
-			// start a transaction
-			session.beginTransaction();
 			
 			// save the courses
 			session.save(tmpEmployee1);
